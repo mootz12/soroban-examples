@@ -1,0 +1,17 @@
+[package]
+name = "example_error_consumer"
+version = "0.0.0"
+authors = ["Stellar Development Foundation <info@stellar.org>"]
+license = "Apache-2.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = "0.2.0"
+
+[dev_dependencies]
+soroban-sdk = { version = "0.2.0", features = ["testutils"] }

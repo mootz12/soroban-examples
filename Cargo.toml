@@ -22,6 +22,7 @@ members = [
     "logging",
     "errors",
     "wallet",
+    "example_error_consumer"
 ]
 
 [profile.release-with-logs]
